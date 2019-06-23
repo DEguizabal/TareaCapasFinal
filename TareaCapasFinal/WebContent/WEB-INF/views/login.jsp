@@ -15,7 +15,7 @@
 <body>
 	<div class="simple-login-container">
 		<h2>Login</h2>
-			<form id="holi" >
+			<form id="logid" >
 	
 			
 			<div class="row">
@@ -45,19 +45,19 @@
     </script>
     
    	<script type='text/javascript'>
-	   	$("#holi").on('submit', function (e) {
+	   	$("#logid").on('submit', function (e) {
 			e.preventDefault();
 			$.ajax(
 				{
 					url: "${pageContext.request.contextPath}/login",
-					data:  $("#holi").serialize(),
+					data:  $("#logid").serialize(),
 					type: 'POST',
 					success: function (result) {
 
 						location.href = "${pageContext.request.contextPath}/sucursal/main"
 					},
 					error: function (xhr) {
-						swal("Usuario o contraseña inválido, por favor intente nuevamente", {
+						swal("Usuario o contraseña inválido, intente nuevamente", {
 				 	    	icon: "error",
 		 		   		});
 					}

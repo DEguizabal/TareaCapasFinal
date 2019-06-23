@@ -1,0 +1,21 @@
+body{
+	background-color:#8FD5A6;
+	font-size:14px;
+	color:#ffe;
+}
+.simple-login-container{
+	width:300px;
+	max-width:100%;
+	margin:50px auto;
+}
+.simple-login-container h2{
+	text-align:center;
+	font-size:20px;
+}
+.simple-login-container .btn-login{
+	background-color:#0D5D56;
+	color:#fff;
+}
+a{
+	color:#fff;
+}
