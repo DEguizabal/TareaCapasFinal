@@ -57,7 +57,7 @@
 						location.href = "${pageContext.request.contextPath}/sucursal/main"
 					},
 					error: function (xhr) {
-						swal("Usuario o contraseña inválido, intente nuevamente", {
+						swal("El Usuario o Contraseña son invalidos.", {
 				 	    	icon: "error",
 		 		   		});
 					}
