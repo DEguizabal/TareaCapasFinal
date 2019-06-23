@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = "com.rdr.capas.repositories")
+@EnableJpaRepositories(basePackages = "com.uca.capas.repositories")
 public class JpaConfiguration {
 
 	@Bean
@@ -25,7 +25,7 @@ public class JpaConfiguration {
 		LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
 		em.setDataSource(dataSource());
 		em.setPersistenceUnitName("capas");		
-		em.setPackagesToScan("com.rdr.capas.domain");
+		em.setPackagesToScan("com.uca.capas.domain");
 		
 		JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
 		em.setJpaVendorAdapter(vendorAdapter);
