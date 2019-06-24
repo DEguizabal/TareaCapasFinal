@@ -14,7 +14,7 @@
 <title>Editar Empleado</title>
 </head>
 <body>
-<div class="container">
+<div class="container bg-info text-white">
 	<h2 class="text-center">Editar Empleado</h2>
 	<form:form id="editEmp" action="${pageContext.request.contextPath}/empleado/editar" method="POST" modelAttribute="editarEmpDTO">
 		<form:input type="hidden" name="id" path="idEmpleado"/>

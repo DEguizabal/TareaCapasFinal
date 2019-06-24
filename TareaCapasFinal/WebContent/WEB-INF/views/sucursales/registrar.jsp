@@ -14,7 +14,7 @@
 <title>Registrar Sucursal</title>
 </head>
 <body>
-<div class="container">
+<div class="container bg-info text-white">
 	<h2 class="text-center">Registrar Sucursal</h2>
 	<form:form id="regId" action="${pageContext.request.contextPath}/sucursal/registrar" method="POST" modelAttribute="editarDTO">
 		<form:input type="hidden" name="id" value="1" path="idSucursal"/>

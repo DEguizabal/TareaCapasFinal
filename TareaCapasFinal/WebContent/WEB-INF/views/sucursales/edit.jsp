@@ -14,7 +14,7 @@
 <title>Editar Sucursal</title>
 </head>
 <body>
-<div class="container">
+<div class="container bg-info text-white">
 	<h2 class="text-center">Editar Sucursal</h2>
 	<form:form id="editId" action="${pageContext.request.contextPath}/sucursal/editar" method="POST" modelAttribute="editarDTO">
 		<form:input type="hidden" name="id" path="idSucursal"/>

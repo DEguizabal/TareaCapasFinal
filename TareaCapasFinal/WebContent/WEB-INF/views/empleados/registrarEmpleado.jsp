@@ -14,7 +14,7 @@
 <title>Registrar Empleado</title>
 </head>
 <body>
-<div class="container">
+<div class="container bg-info text-white">
 	<h2 class="text-center">Registrar Empleado</h2>
 	<form:form id="regEmp" action="${pageContext.request.contextPath}/empleado/registrar" method="POST" modelAttribute="editarEmpDTO">
 		<form:input type="hidden" name="id" value="1" path="idEmpleado"/>

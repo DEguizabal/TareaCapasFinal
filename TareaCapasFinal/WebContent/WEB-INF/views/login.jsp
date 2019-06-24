@@ -13,7 +13,7 @@
 <title>Login</title>
 </head>
 <body>
-	<div class="simple-login-container">
+	<div class="simple-login-container bg-info text-white">
 		<h2>Login</h2>
 			<form id="logid" >
 	

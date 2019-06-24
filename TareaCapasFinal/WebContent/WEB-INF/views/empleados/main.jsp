@@ -21,7 +21,7 @@
 				location.href = "${pageContext.request.contextPath}/empleado/main?id=${sucursal.idSucursal}"
 			}
     </script>
-    <div class="container">
+    <div class="container bg-info text-white">
     	<div class="row col-md-6 col-md-offset-2 custyle">
     		<table id="table" class="table table-striped custab">
     		<thead>
