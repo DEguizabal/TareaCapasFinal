@@ -68,7 +68,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 form-group">
-				<input id="enviar" type = "submit" value="Agregar Sucursal" class="btn btn-block btn-login btn-warning">
+				<input id="enviar" type = "submit" value="Agregar Sucursal" class="btn btn-block btn-login btn-success">
 				</div>
 			</div>
 		</form:form>
